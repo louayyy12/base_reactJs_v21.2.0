@@ -71,11 +71,11 @@ const Education = () => {
         <div className={cx("one-company")}>
           <div className={cx("left")}>
             <a
-              href="https://duytan.edu.vn/"
+              href=""
               target="black"
               className={cx("title")}
             >
-              Duy Tan University
+              Cnam_Liban
               <FaExternalLinkAlt className={cx("icon")} />
             </a>
             <h3 className={cx("role")}>
@@ -102,25 +102,21 @@ const Education = () => {
               <div className={cx("mark")}>
                 <FaBookmark className={cx("icon-mark")} />
                 <span>
-                  After 5 years in college, I successfully completed a graduate
+                  After 3 years in college, I successfully completed a graduate
                   thesis on programming: Using NodeJS and MongoDB to create an
                   online chat messaging application.
                 </span>
               </div>
               <div className={cx("mark")}>
                 <FaBookmark className={cx("icon-mark")} />
-                <span>
-                  My graduation thesis received a 9.7/10, making it the third
-                  highest mark in the university. That particular moment made me
-                  really happy.
-                </span>
+               
               </div>
             </div>
           </div>
           <div className={cx("right")}>
-            August 2021 - 2025
+            August 2020- 2023
             <br />
-            (4 years)
+            (3 years)
           </div>
         </div>
       </div>

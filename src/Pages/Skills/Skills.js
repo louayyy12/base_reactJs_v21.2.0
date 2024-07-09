@@ -39,8 +39,6 @@ const Skills = () => {
         <FaBootstrap className={cx("language", "bootstrap")} />
         <SiRedux className={cx("language", "redux")} />
         <FaGithub className={cx("language", "github")} />
-        <FaGitlab className={cx("language", "gitlab")} />
-        <FaTrello className={cx("language", "trello")} />
       </div>
       <div className={cx("desc")}>Workflow:</div>
       <ul className={cx("list-skill")}>

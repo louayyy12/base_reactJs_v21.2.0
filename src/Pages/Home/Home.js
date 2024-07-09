@@ -10,6 +10,7 @@ import Interests from "../Interests/Interests";
 import TheEnd from "../TheEnd/TheEnd";
 import { IoClose } from "react-icons/io5";
 
+
 const cx = classNames.bind(styles);
 const Home = () => {
   useEffect(() => {
@@ -61,7 +62,7 @@ const Home = () => {
       <div className={cx("heading")}>
         <div className={cx("avatar")} onClick={handleShowImage}>
           <img
-            src="https://res.cloudinary.com/daofedrqe/image/upload/v1713344801/wanfit_apple_imageAvt/tyg79euys2xpx8lxgzw6.jpg"
+            //src="https://res.cloudinary.com/daofedrqe/image/upload/v1713344801/wanfit_apple_imageAvt/tyg79euys2xpx8lxgzw6.jpg"
             alt=""
           />
         </div>
@@ -168,7 +169,7 @@ const Home = () => {
             <IoClose className={cx("icon")} />
           </div>
           <img
-            src="https://res.cloudinary.com/daofedrqe/image/upload/v1713344801/wanfit_apple_imageAvt/tyg79euys2xpx8lxgzw6.jpg"
+            //src="https://res.cloudinary.com/daofedrqe/image/upload/v1713344801/wanfit_apple_imageAvt/tyg79euys2xpx8lxgzw6.jpg"
             alt=""
           />
         </div>

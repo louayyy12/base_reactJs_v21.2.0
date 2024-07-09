@@ -16,20 +16,20 @@ const AboutMe = () => {
   return (
     <>
       <h1 className={cx("name")}>
-        Pham Quoc <span>Hoang</span>
+        Louay <span>Harb</span>
       </h1>
       <div className={cx("text", "align-center")}>
         <span className={cx("label")}>
           <FaAddressCard className={cx("icon")} />
         </span>
-        <span className={cx("ctx")}>Backend Developer</span>
+        <span className={cx("ctx")}>FullStack Developer</span>
       </div>
       <div className={cx("text", "align-center")}>
         <span className={cx("label")}>
           <FaMap className={cx("icon")} />
         </span>
         <span className={cx("ctx")}>
-          Thanh Khe District, DaNang, VietNam, 550000
+          Beirut Lebanon
         </span>
       </div>
       <div className={cx("alert")}>
@@ -47,8 +47,8 @@ const AboutMe = () => {
           <strong>Front-end:</strong> I have experience working with
           <strong>
             {" "}
-            ReactJS (NextJS, Hook, Redux Toolkit), Material UI, TailwindCSS,
-            Bootstrap, Axios, and other technologies.
+            ReactJS (NextJS,Redux), Material UI, CSS,
+            and other technologies.
           </strong>
         </span>
       </div>
@@ -68,25 +68,25 @@ const AboutMe = () => {
       <div className={cx("social")}>
         <div className={cx("item")}>
           <FaPhoneSquareAlt className={cx("icon", "phone")} />{" "}
-          <span>0971 955 144</span>
+          <span>+961 70 360451</span>
         </div>
         <div className={cx("item")}>
           <LiaBirthdayCakeSolid className={cx("icon", "birth")} />{" "}
-          <span>22/06/2003</span>
+          <span>05/06/2001</span>
         </div>
         <div className={cx("item")}>
           <MdEmail className={cx("icon", "gmail")} />{" "}
-          <span>quochoangdev.official@gmail.com</span>
+          <span>Louayharb7@gmail.com</span>
         </div>
         <div className={cx("list-icon")}>
           <a
-            href="https://github.com/quochoangdev"
+            href="https://github.com/LouayHarb"
             className={cx("bl-icon", "bg-github")}
           >
             <RxGithubLogo className={cx("icon")} />
           </a>
           <a
-            href="https://www.facebook.com/quochoang.pham.3701/"
+            href="https://www.facebook.com/loulou.harb.1?mibextid=LQQJ4d"
             className={cx("bl-icon", "bg-facebook")}
           >
             <FaFacebookF className={cx("icon")} />

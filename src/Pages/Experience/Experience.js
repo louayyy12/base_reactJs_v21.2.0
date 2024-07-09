@@ -70,32 +70,24 @@ const Experience = () => {
         {/* Meta Technology */}
         <div className={cx("one-company")}>
           <div className={cx("left")}>
-            <a
-              href="https://meta-technology.com.vn/"
-              target="black"
-              className={cx("title")}
-            >
-              Meta Technology
-              <FaExternalLinkAlt className={cx("icon")} />
-            </a>
-            <h3 className={cx("role")}>Backend - Internship</h3>
+            
+            <h3 className={cx("role")}>FSW Bootcamp</h3>
             <div className={cx("bl-description")}>
               <div className={cx("mark")}>
                 <FaBookmark className={cx("icon-mark")} />
                 Participate in developing Ecommerce website with TypeScript,
-                NestJs
+                Reactjs
               </div>
               <div className={cx("mark")}>
                 <FaBookmark className={cx("icon-mark")} />
-                Join a team Back-end and developing a website with TypeScript -
-                NestJs
+                Join a team and developing a websites
               </div>
             </div>
           </div>
           <div className={cx("right")}>
-            April 2024 - April 2024
+            April 2023 - jully 2023
             <br />
-            (6 month internship)
+            (3 months)
           </div>
         </div>
       </div>
